@@ -29,7 +29,7 @@ SECRET_KEY = 'hqh-p8-(9*yk_9@^%dy(4@71rp3ktoqmdp76k^b6%mz3s*^=tl'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1',
-                 'https://adept-care.herokuapp.com']
+                 'adept-care.herokuapp.com']
 
 
 # Application definition
