@@ -1,6 +1,6 @@
 from django.contrib import auth, messages
 from django.shortcuts import render, redirect, reverse
-from .forms import UserLoginForm
+from .forms import UserLoginForm, UserRegistrationForm
 
 # Create your views here.
 
@@ -30,3 +30,8 @@ def login(request):
     else:
         login_form = UserLoginForm(),
         return render(request, 'login.html', {"login_form": login_form})
+
+def register(request):
+    """Render the registration page"""
+    registration_form = UserRegistrationForm()
+    return render(request, 'register.html', {'registration_form': registration_form})
