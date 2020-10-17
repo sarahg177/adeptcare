@@ -4,7 +4,9 @@ body {
     background-color: #eee;
 }
 
-.nav-wrapper {}
+.nav-wrapper {
+    background-color: #eeeeee;
+}
 
 form {
     width: 50%;
