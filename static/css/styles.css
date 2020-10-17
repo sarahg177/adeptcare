@@ -8,6 +8,19 @@ body {
     background-color: #eeeeee;
 }
 
-form {
-    width: 50%;
+.brand-logo {
+    color: #c8a2c8;
+    font-size: 60px;
+    font-family: Serif;
+}
+
+footer {
+    background-color: #424242;
+}
+
+@media screen(max-width:780px) {
+
+    form {
+        width: 50%;
+    }
 }
