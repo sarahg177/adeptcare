@@ -1,3 +1,11 @@
+/*------Colours-----*/
+
+body {
+    background-color: #eee;
+}
+
+.nav-wrapper {}
+
 form {
     width: 50%;
 }
