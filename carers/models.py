@@ -74,7 +74,7 @@ class Carer(models.Model):
 
     short_bio = models.TextField(max_length=500, blank=False)
 
-    image = models.ImageField(upload_to="img", blank=True, null=True)
+    image = models.ImageField(upload_to="img", blank=True)
 
     """primary_condition = models.CharField(
         max_length=30,
