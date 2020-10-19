@@ -1,24 +1,24 @@
 {%  extends "base.html" %}
 
-{% load bootstrap_tags %}
-
 {%  block page_title %}Login Page{%  endblock %}
 
 {% block page_heading %}Please Login{% endblock %}
 
 {%  block content %}
-    {%  if messages %}
-    <div>
-    {% for message in messages %}
-    {{ message }}
-    {% endfor %}
-    </div>
-    {% endif %}
 
-    <form method="post">
+    <form method="post" action="{%  url 'login' %}">
     {%  csrf_token %}
-    {{ login_form}}
-        <button type="submit">Login</button>
+    <table>
+        <tr>
+            <td>{{ form.username.label_tag }}</td>
+            <td>{{ form.username }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.password.label_tag }}</td>
+            <td>{{ form.password }}</td>
+        </tr>
+    </table>
+    <input type="submit" value="login">
     </form>
 
 {%  endblock %}

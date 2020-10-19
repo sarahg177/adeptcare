@@ -4,10 +4,14 @@ body {
     background-color: #eee;
 }
 
+.nav-wrapper {
+    background-color: #fff;
+}
+
 .nav-wrapper a {
     color: #c8a2c8;
     font-size: 60px;
-    font-family: Serif;
+    font-family: serif;
 }
 
 footer {
@@ -20,7 +24,7 @@ footer {
     color: #013537;
     font-size: 15px;
     font-family: sans-serif;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 @media screen(max-width:780px) {
