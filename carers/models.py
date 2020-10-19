@@ -76,6 +76,7 @@ class Carer(models.Model):
 
     image = models.ImageField(upload_to="img", blank=True)
 
+
     """primary_condition = models.CharField(
         max_length=30,
         choices=PRIMARY_CONDITION,

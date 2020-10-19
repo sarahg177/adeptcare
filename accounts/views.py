@@ -1,6 +1,7 @@
-from django.contrib import auth, messages
 from django.shortcuts import render, redirect, reverse
-from .forms import UserLoginForm, UserRegistrationForm
+from django.contrib import auth, messages
+from django.contrib.auth.models import User
+from accounts.forms import UserLoginForm, UserRegistrationForm
 
 # Create your views here.
 
@@ -13,6 +14,7 @@ def welcome(request):
 def logout(request):
     """Log the user out"""
     auth.logout(request)
+    messages.success((request, "You have successfully been logged off"))
     return redirect(reverse('welcome'))
 
 
@@ -20,15 +22,19 @@ def login(request):
     """Return a login page"""
     if request.method == "POST":
         login_form = UserLoginForm(request.POST)
+
         if login_form.is_valid():
-            user = auth.authenticate(username=request.POST['username'], password=request.POST['password'])
-            messages.success(request, "You have successfully logged in!")
+            user = auth.authenticate(username=request.POST['username'],
+                                     password=request.POST['password'])
+
             if user:
                 auth.login(user=user, request=request)
+                messages.success(request, "You have successfully logged in!")
+                return redirect(reverse('carer_list'))
             else:
                 login_form.add_error(None, "Your username or password is incorrect")
     else:
-        login_form = UserLoginForm(),
+        login_form = UserLoginForm()
         return render(request, 'login.html', {"login_form": login_form})
 
 
