@@ -7,6 +7,7 @@ django-forms-bootstrap==3.1.0
 django-storages==1.10.1
 gunicorn==20.0.4
 jmespath==0.10.0
+mysqlclient==2.0.1
 Pillow==8.0.0
 psycopg2-binary==2.8.6
 python-dateutil==2.8.1
@@ -14,5 +15,5 @@ pytz==2020.1
 s3transfer==0.3.3
 six==1.15.0
 sqlparse==0.4.1
-urllib3==1.25.10
+urllib3==1.25.11
 whitenoise==5.2.0
