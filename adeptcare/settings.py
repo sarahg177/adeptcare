@@ -100,8 +100,15 @@ else:
     print("Postgres URL not found, using SQLite instead")
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'ei42j6ka_nn7db',
+            'USER': 'ei42j6ka_nn7db',
+            'PASSWORD': 'cyhPow-1tyrma-mirgic',
+            'HOST': 'localhost',
+            'PORT': '3306',
+            'OPTIONS': {
+                'sql_mode': 'STRICT_ALL_TABLES',
+            },
         }
     }
 
