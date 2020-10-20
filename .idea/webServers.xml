@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="57ca2fa1-693d-4667-bdee-4eb346ec6bf0" name="names.co.uk" url="http://www.adeptcarepersonnel.org.uk">
+        <fileTransfer rootFolder="/public_html" host="lhcp4006.webapps.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

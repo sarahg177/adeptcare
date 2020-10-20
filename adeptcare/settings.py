@@ -18,10 +18,10 @@ if os.path.exists('env.py'):
 
 from pathlib import Path
 
-if os.environ.get('DEVELOPMENT'):
-    development = True
-else:
-    development = False
+#if os.environ.get('DEVELOPMENT'):
+#    development = True
+#else:
+#    development = False
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -34,11 +34,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1',
+                'https://www.adeptcarepersonnel.org.uk',
                  os.environ.get('HOSTNAME')]
-
 
 # Application definition
 
