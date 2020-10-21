@@ -28,3 +28,4 @@ venv/lib/python3.7/site-packages/whitenoise-5.2.0.dist-info/
 venv/lib/python3.7/site-packages/whitenoise/
 static/
 *.png
+!/env.py

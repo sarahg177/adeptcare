@@ -10,8 +10,10 @@ body {
 
 .nav-wrapper a {
     color: #c8a2c8;
-    font-size: 60px;
-    font-family: serif;
+}
+
+.nav {
+    color: #eeeeee;
 }
 
 footer {
@@ -33,13 +35,28 @@ footer {
 
 .btn {
     background-color: #c8a2c8;
+    color: #eeeeee;
 }
 
 .btn:hover {
     background-color: #005357;
 }
 
+button a {
+    color: #eeeeee;
+}
+
+.divider {
+    color: grey;
+    border-width: 2px;
+    border-top-style: solid;
+}
+
 /*---Navbar---*/
+
+main {
+    min-height: 70vh;
+}
 
 .nav-link {
     color: #013537;
@@ -62,9 +79,29 @@ h2 {
     display: block;
 }
 
+.adept {
+    font-size: 60px;
+}
+
+.nav-wrapper .adept {
+    font-size: 60px;
+}
+
+.sitemap {
+    padding-left: 10px;
+}
+
 @media (max-width:780px) {
 
     form {
         width: 100%;
+    }
+
+    .login a {
+        font-size: 25px;
+    }
+
+    a.nav-link.login {
+        font-size: 25px;
     }
 }

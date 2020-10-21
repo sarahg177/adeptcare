@@ -21,7 +21,7 @@
 <body>
 <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo center">adept.</a>
+      <a href="#" class="brand-logo center adept">adept.</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
      <ul id="nav-mobile" class="left hide-on-med-and-down">
 
@@ -29,7 +29,7 @@
              <li><a class="nav-link" href="#">Profile</a></li>
             <li><a class="nav-link" href="{% url 'logout' %}">Logout</a></li>
          {% else %}
-             <li><a class="nav-link" href="{% url 'login' %}">Login</a></li>
+             <li><a class="nav-link login" href="{% url 'login' %}">Login</a></li>
          {% endif %}
      </ul>
         <ul class="side-nav" id="mobile-demo">
@@ -74,16 +74,17 @@
         <p><a class="sitemap" href="{% url 'carer_profile' %}">Carer's Profile</a></p>
     </div>
 </div>
+        <hr class="divider">
     <div class="row">
         <div class="col-lg-4 col-md-4 mx-auto">
-           <a href="#" class="brand-logo center">adept.</a>
+           <a href="#" class="brand-logo center adept">adept.</a>
         </div>
        <div class="col-lg-4 col-md-4 mx-auto">
            <p>&copy; All Rights Reserved | Adept Care Personnel Ltd</p>
            <p>Website designed and developed by <a class="griggs_design_link" href="https://www.griggsdesign.co.uk">GRIGGS DESIGN</a> </p>
         </div>
         <div class="col-lg-4 col-md-4 mx-auto">
-            <button class="book_call"><a href="https://www.adeptcarepersonnel.co.uk/contact-us">Book a Call</a></button>
+            <button class="btn btn-primary book_call"><a href="https://www.adeptcarepersonnel.co.uk/contact-us">Book a Call</a></button>
         </div>
     </div>
     </div>
