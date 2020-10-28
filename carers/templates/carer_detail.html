@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="post-entry">
+    <h2>{{ carer.first_name }} {{ carer.last_name }}</h2>
+    <p>Contact: {{ carer.telephone }}</p>
+    <p>Email: {{ carer.email }}</p>
+    <p>Bio: {{ carer.short_bio }}</p>
+</div>

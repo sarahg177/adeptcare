@@ -13,11 +13,9 @@
                 <h2 class="text-center">All Carers</h2>
                 {% for carer in carers %}
                     <div class="card">
-                        <h5 class="card-header"><a class="text-decoration-none" href="#">{{ carer.first_name }} {{ carer.last_name }} ({{ carer.known_as }})</a></h5>
+                        <h5 class="card-header"><a class="text-decoration-none" href="{% url 'carer_detail' carer.pk %}">{{ carer.first_name }} {{ carer.last_name }} ({{ carer.known_as }})</a></h5>
                         <div class="card-body">
                             <div class="carer" style="background-image: url ('{{ MEDIA_URL }} {{ carer.image }}')"></div>
-                            <p>Contact: {{ carer.telephone }}</p>
-                            <p>Email: {{ carer.email }}</p>
                             <p>Bio: {{ carer.short_bio }}</p>
                     </div>
                     </div>

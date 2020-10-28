@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.views.generic import DetailView
 from .forms import CarerForm
 from carers.models import Carer
 
@@ -26,3 +27,8 @@ def get_carer_list(request):
     """View to show list of all carers"""
     all_carers = Carer.objects.all()
     return render(request, "view_carer_list.html", {'carers': all_carers})
+
+
+class CarerDetailView(DetailView):
+    model = Carer
+    template_name = 'carer_detail.html'

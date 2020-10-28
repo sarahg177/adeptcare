@@ -39,6 +39,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['127.0.0.1',
                  '185.2.6.6',
                  'adept-care.herokuapp.com',
+                 'adeptcarepersonnel.org.uk',
                  os.environ.get('HOSTNAME')]
 
 # Application definition

@@ -22,3 +22,144 @@
 [ N 2020-10-23 12:23:30.6258 77463/Tk Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
 [ N 2020-10-23 12:23:30.6258 77463/Tk Ser/Server.h:558 ]: [ApiServer] Shutdown finished
 [ N 2020-10-23 12:23:30.9414 77463/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-10-23 12:25:45.8349 77554/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-23 12:25:45.8618 77556/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-23 12:25:45.8628 77556/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-23 12:25:45.8913 77556/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 77556
+2020/10/23 12:25:47 [error] 77559#0: *4 "/Users/SarahBaker/Desktop/adeptcare/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ N 2020-10-23 12:25:48.1035 77556/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+2020/10/23 12:25:50 [error] 77559#0: *5 "/Users/SarahBaker/Desktop/adeptcare/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "0.0.0.0:3000"
+2020/10/23 12:25:50 [error] 77559#0: *6 open() "/Users/SarahBaker/Desktop/adeptcare/public/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:3000", referrer: "http://0.0.0.0:3000/"
+
+[ N 2020-10-23 12:37:17.2875 77556/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-23 12:37:17.2875 77556/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-23 12:37:17.2888 77556/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-10-23 12:37:17.2888 77556/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-10-23 12:37:17.2888 77556/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-10-23 12:37:17.2888 77556/Td Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-10-23 12:37:17.2888 77556/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-23 12:37:17.2888 77556/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-10-23 12:37:17.2888 77556/Tk Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-23 12:37:17.2891 77556/Tk Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-23 12:37:17.2892 77556/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-10-23 12:37:17.2892 77556/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-10-23 12:37:17.2892 77556/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-10-23 12:37:17.2892 77556/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-10-23 12:37:17.2892 77556/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-10-23 12:37:17.2892 77556/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-23 12:37:17.5601 77556/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-10-23 12:37:20.0469 77699/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-23 12:37:20.0725 77701/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-23 12:37:20.0727 77701/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-23 12:37:20.0924 77701/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 77701
+[ N 2020-10-23 12:37:22.2968 77701/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 77719 output: /usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 77719 output:   import sys, os, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 77719 output: [ pid=77719, time=2020-10-23 12:37:22,597 ]: WSGI application raised an exception!
+App 77719 output: Traceback (most recent call last):
+App 77719 output:   File "/usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 77719 output:     socket_hijacked = self.process_request(env, input_stream, client)
+[ W 2020-10-23 12:37:22.5977 77701/T8 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 77719 output:   File "/usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 77719 output:     result = self.app(env, start_response)
+App 77719 output: TypeError: main() takes 0 positional arguments but 2 were given
+App 77719 output: [ pid=77719, time=2020-10-23 12:37:30,582 ]: WSGI application raised an exception!
+App 77719 output: Traceback (most recent call last):
+App 77719 output:   File "/usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 77719 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 77719 output:   File "/usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 77719 output:     result = self.app(env, start_response)
+App 77719 output: TypeError: main() takes 0 positional arguments but 2 were given
+[ W 2020-10-23 12:37:30.5822 77701/Ta age/Cor/Con/InternalUtils.cpp:96 ]: [Client 2-1] Sending 502 response: application did not send a complete response
+
+[ N 2020-10-23 12:38:53.9405 77701/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-23 12:38:53.9406 77701/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-23 12:38:53.9406 77701/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 77719, application /Users/SarahBaker/Desktop/adeptcare (development)
+[ N 2020-10-23 12:38:53.9409 77701/Tk Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-23 12:38:53.9410 77701/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-10-23 12:38:53.9410 77701/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-10-23 12:38:53.9410 77701/Tk Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-23 12:38:53.9410 77701/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-10-23 12:38:53.9410 77701/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-23 12:38:53.9410 77701/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-10-23 12:38:53.9410 77701/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-10-23 12:38:53.9410 77701/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-10-23 12:38:53.9410 77701/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-10-23 12:38:53.9410 77701/Tj Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-10-23 12:38:53.9410 77701/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-23 12:38:53.9410 77701/Tj Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-10-23 12:38:53.9410 77701/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-10-23 12:38:53.9417 77701/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 77719, application /Users/SarahBaker/Desktop/adeptcare (development)
+[ N 2020-10-23 12:38:54.3124 77701/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-10-23 12:38:57.4467 77835/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-23 12:38:57.4726 77837/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-23 12:38:57.4729 77837/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-23 12:38:57.4913 77837/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 77837
+2020/10/23 12:38:59 [error] 77840#0: *4 "/Users/SarahBaker/Desktop/adeptcare/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "0.0.0.0:3000"
+2020/10/23 12:38:59 [error] 77840#0: *5 "/Users/SarahBaker/Desktop/adeptcare/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ N 2020-10-23 12:38:59.6996 77837/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-10-23 12:45:48.6118 77837/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-23 12:45:48.6118 77837/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-23 12:45:48.6120 77837/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-23 12:45:48.6120 77837/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-10-23 12:45:48.6121 77837/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-10-23 12:45:48.6120 77837/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-10-23 12:45:48.6120 77837/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-23 12:45:48.6121 77837/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-10-23 12:45:48.6121 77837/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-10-23 12:45:48.6122 77837/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-10-23 12:45:48.6122 77837/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-10-23 12:45:48.6123 77837/Tk Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-23 12:45:48.6123 77837/Tk Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-23 12:45:48.6121 77837/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-10-23 12:45:48.6121 77837/Tf Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-10-23 12:45:48.6123 77837/Tf Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-10-23 12:45:48.8907 77837/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-10-23 12:45:50.7327 77944/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-23 12:45:50.7585 77946/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-23 12:45:50.7588 77946/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-23 12:45:50.7769 77946/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 77946
+[ N 2020-10-23 12:45:52.9780 77946/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 77964 output: /usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 77964 output:   import sys, os, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 77964 output: [ pid=77964, time=2020-10-23 12:45:53,156 ]: WSGI application raised an exception!
+App 77964 output: Traceback (most recent call last):
+App 77964 output:   File "/usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 77964 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 77964 output:   File "/usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 77964 output:     result = self.app(env, start_response)
+App 77964 output: TypeError: main() takes 0 positional arguments but 2 were given
+[ W 2020-10-23 12:45:53.1572 77946/T8 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 77964 output: [ pid=77964, time=2020-10-23 12:46:26,587 ]: WSGI application raised an exception!
+App 77964 output: Traceback (most recent call last):
+App 77964 output:   File "/usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 77964 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 77964 output:   File "/usr/local/Cellar/passenger/6.0.6_2/libexec/src/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 77964 output:     result = self.app(env, start_response)
+App 77964 output: TypeError: main() takes 0 positional arguments but 2 were given
+[ W 2020-10-23 12:46:26.5881 77946/Tb age/Cor/Con/InternalUtils.cpp:96 ]: [Client 2-1] Sending 502 response: application did not send a complete response
+
+[ N 2020-10-23 17:38:53.5651 77946/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-23 17:38:53.5655 77946/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-23 17:38:53.5657 77946/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 77964, application /Users/SarahBaker/Desktop/adeptcare (development)
+[ N 2020-10-23 17:38:53.5660 77946/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-23 17:38:53.5660 77946/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-10-23 17:38:53.5660 77946/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-10-23 17:38:53.5660 77946/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-10-23 17:38:53.5660 77946/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-10-23 17:38:53.5662 77946/Tk Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-23 17:38:53.5660 77946/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-10-23 17:38:53.5664 77946/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-10-23 17:38:53.5664 77946/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-23 17:38:53.5672 77946/Tk Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-23 17:38:53.5670 77946/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-10-23 17:38:53.5671 77946/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-10-23 17:38:53.5672 77946/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-10-23 17:38:53.5673 77946/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-10-23 17:38:53.5682 77946/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 77964, application /Users/SarahBaker/Desktop/adeptcare (development)
+
+[ N 2020-10-23 17:38:53.5814 77946/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 1 more time(s) to force shutdown)
+[ E 2020-10-23 17:38:53.6842 77946/T1 age/Cor/TelemetryCollector.h:455 ]: Error contacting anonymous telemetry server: Could not resolve host: anontelemetry.phusionpassenger.com
+[ N 2020-10-23 17:38:53.7646 77946/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ W 2020-10-23 17:38:53.7938 82528/T1 age/Wat/WatchdogMain.cpp:437 ]: Cannot open cleanup PID file temp_dir_toucher.pid (/var/folders/wf/7kw8sb8n1jl28jhrf7j26h280000gp/T/passenger-standalone.3ml6tj/temp_dir_toucher.pid)

@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="57ca2fa1-693d-4667-bdee-4eb346ec6bf0" name="names.co.uk" url="https://www.adeptcarepersonnel.org.uk">
-        <fileTransfer rootFolder="/adeptcare99" host="lhcp4006.webapps.net" port="21">
+        <fileTransfer rootFolder="/test" host="lhcp4006.webapps.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
